@@ -7,7 +7,7 @@ export default registerAs('config', () => {
       port: process.env.DATABASE_PORT
     },
     mongo: {
-
+      dbName: process.env.MONGO_DB
     },
     apiKey: process.env.API_KEY,
   }
